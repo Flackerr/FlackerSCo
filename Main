@@ -1,0 +1,6 @@
+git init            # Initialize Git (if not already initialized)
+git add .           # Stage all files
+git commit -m "Initial commit"  # Commit files
+git branch -M main  # Rename the branch to 'main' (if needed)
+git remote add origin https://github.com/flackerr/flackersco.git  # Link to GitHub
+git push -u origin main  # Push your code to GitHub
